@@ -96,7 +96,7 @@ public class LeitorArquivo {
 				valor = campo[3];
 				verificador = campo[4];
 
-				vet[i] = new Item(dataVenc, nome, cpf, valor);
+				vet[i] = new Item(dataVenc, valor, nome, cpf);
 			
 				linhaDoArquivo = reader.readLine();
 				i++;
@@ -156,7 +156,7 @@ public class LeitorArquivo {
 				valor = campo[3];
 				verificador = campo[4];
 
-				vet[i] = new ItemABB(dataVenc, nome, cpf, valor);
+				vet[i] = new ItemABB(dataVenc, valor, nome, cpf);
 				
 				linhaDoArquivo = reader.readLine();
 				i++;

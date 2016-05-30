@@ -66,6 +66,6 @@ public class ItemABB extends ObjetoComChave {
 	@Override
 	public String toString() {
 		return "Item [dataVenc=" + dataVenc + ", valor=" + valor  + ", nome="
-				+ nome + ", chave=" + chave + "]";
+				+ nome  + "]";
 	}
 }
